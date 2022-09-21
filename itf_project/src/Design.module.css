@@ -1,0 +1,114 @@
+.mainContainer{
+    margin: 5% auto;
+    max-width: 800px;
+    padding: 10px;
+}
+
+.mainContainer > div > div{
+    margin-top: 25px;
+}
+
+.mainContainer > div > div > div{
+    background: rgb(201,0,89);
+    background: linear-gradient(360deg, rgba(201,0,89,1) 0%, rgba(235,0,106,1) 55%);
+    color: white ;
+    border-radius: 10px;
+}
+
+.mainContainer > div > div > div *{
+    color: white ;
+}
+
+.imageCard{
+    background: white !important;
+    color: black !important;
+}
+
+.imageCard img{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: block;
+    fill: black;
+}
+
+.mainContainer :global(.ant-card-head){
+    background-color: rgba(201,0,89,1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.mainContainer :global(.ant-card-body){
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mainContainer p{
+    display: flex;
+}
+
+.mainContainer p *{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.mainContainer p :first-child{
+    width: 40%;
+}
+
+.mainContainer p :last-child{
+    width: 60%;
+}
+
+.tableContainer{
+    max-width: 100%;
+    width: 800px;
+    overflow-x: auto;
+    margin: 5% auto;
+    padding: 10px;
+}
+
+.logbookFormContainer{
+    padding: 5%;
+    padding-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .logbookFormContainer{
+        max-width: 700px;
+        margin: 20px auto;
+    }
+}
+@media screen and (max-width: 990px) {
+    .logbookFormContainer{
+        padding-right: 5%;
+    }
+}
+
+.logbookFormContainer > div > div{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(197, 197, 197);
+    margin-top: 20px;
+}
+
+.logbookFormContainer form{
+    padding: 15px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.logbookFormContainer label{
+    display: block;
+    margin-top: 15px;
+}
+
+.showCenter{
+    margin: auto;
+    max-width: 300px;
+    max-height:50px;
+    width: 100%;
+}

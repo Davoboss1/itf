@@ -1,0 +1,3 @@
+itf_backend/*/__pycache__
+itf_backend/*/*/__pycache__
+itf_project/node_modules

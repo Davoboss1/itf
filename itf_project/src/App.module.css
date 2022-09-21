@@ -1,0 +1,137 @@
+.iconbutton {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.mainMenu li {
+  padding: 10px 15px;
+}
+
+.card {
+  margin: 25px 5%;
+}
+
+.card img {
+  margin: 0;
+  display: inline;
+}
+
+.card > div > div {
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+  .card > div {
+    display: flex;
+    padding: 0;
+  }
+@media screen and (max-width: 1060px) {
+  .card {
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  .card > div {
+    display: block;
+    padding: 30px;
+  }
+.card img {
+  display: block;
+  max-width: 250px;
+  margin: auto;
+}
+
+.card > div > div {
+    margin: 0;
+}}
+
+
+.card > div > div h1 {
+  color: #455a64;
+}
+
+.card > div > div h2 {
+  color: #546e7a;
+}
+
+.card > div > div hr {
+  color: #ffffff;
+}
+
+.learnmoreBtn {
+  display: block;
+  margin-left: auto;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  background-color: #c2185b;
+  border-color: #c2185b;
+}
+
+.learnmoreBtn:hover,
+.learnmoreBtn:focus {
+  background-color: #db1f6a;
+  border-color: #c2185b;
+}
+.learnmoreBtn:active {
+  background-color: #ad1854;
+  border-color: #ad1854;
+}
+
+.mainSideMenu {
+  margin: 0 !important;
+  margin-left: auto !important;
+  background-color: #c2185b;
+}
+
+.mainSideMenu ul {
+  padding: 20px 35px;
+  list-style-type: none;
+}
+
+.mainSideMenu li {
+  margin-top: 10px;
+  border-bottom: 1px solid white;
+  font-weight: bolder;
+  padding: 10px;
+  color: white;
+  transition: background-color 1s;
+}
+
+.mainSideMenu li a {
+  color: inherit;
+  transition: color 1s;
+}
+
+.mainSideMenu li:hover {
+  background-color: white;
+  color: #616161;
+}
+
+.mainSideMenu li span {
+  margin-right: 10px;
+  font-size: large;
+}
+
+
+.aboutContainer{
+  margin: 25px 5%;
+}
+
+.aboutTag{
+    padding: 5px 10px;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+.aboutContainer p{
+    margin-top: 25px;
+}
+
+.footer{
+  background-color: #c2185b;
+}
+
+.footer *{
+  margin: 0; 
+  color: white !important;
+}

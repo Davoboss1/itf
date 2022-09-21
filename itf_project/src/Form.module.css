@@ -1,0 +1,59 @@
+.Form{
+    background-color: white;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(197, 197, 197);
+    max-width: 800px;
+}
+
+.Form div{
+    padding: 10px 0px;
+    padding-left: 20px;
+
+}
+
+.Form div input{
+    max-width: 300px;
+    width: 100%;
+}
+
+.AvatarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.userAvatar{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.LoginInputContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 320px;
+}
+
+.row{
+    flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+    .Form div{
+        max-width: 300px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+}
+
+.showCenter{
+    margin: auto;
+    max-width: 300px;
+    max-height:50px;
+    width: 100%;
+}
